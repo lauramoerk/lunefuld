@@ -1,7 +1,7 @@
 // Navigation
-const toggleSearch = () => {
-    document.getElementById("searchInput").classList.toggle("hidden");
-};
+// const toggleSearch = () => {
+//     document.getElementById("searchInput").classList.toggle("hidden");
+// };
 const mdOptionsToggle = () => {
     document.getElementById("md-searchbar").classList.toggle("hidden");
     document.getElementById("md-searchbar").classList.toggle("flex");

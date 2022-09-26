@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lundefuld.dk - plakater</title>
+    <title>Lunefuld.dk - plakater</title>
   </head>
   <body>
     
@@ -13,7 +13,7 @@
     <div>
       <div class="relative">
         <!-- For md screen size -->
-        <div id="md-searchbar" class="bg-white  hidden lg:hidden py-5 px-6 items-center justify-between">
+        <div id="md-searchbar" class="bg-white  hidden lg:hidden py-5 px-6 items-center justify-between border-t-2 border-b-2 border-solid border-black">
           <div class="flex items-center space-x-3 text-gray-800 ">
             <div>
               <img class="" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2.svg" alt="search">
@@ -21,7 +21,7 @@
                 alt="search">
             </div>
             <input type="text" placeholder="Søg efter"
-              class="text-sm leading-none   text-gray-600 focus:outline-none" />
+              class="text-sm leading-none  text-gray-600 focus:outline-none" />
           </div>
           <div class="space-x-6">
             <button aria-label="view favourites"
@@ -41,17 +41,17 @@
         <!-- For md screen size -->
 
         <!-- For large screens -->
-        <div class=" bg-gray-50 px-6 py-9">
+        <div class=" bg-gray-50 px-2 py-4 border-t-2 border-b-2 border-solid border-black">
           <div class="container mx-auto flex items-center justify-between">
-            <h1 class="md:w-2/12 cursor-pointer text-gray-800 " aria-label="lunefuld.dk">
-              <a href="index.html" class="font-extrabold">
-                <img class="min-h-[50px]" src="content/lunefuld.svg" alt="logo">
-              </a>
-            </h1>
-            <ul class="hidden w-8/12 md:flex items-center justify-center space-x-8">
+            <ul class="hidden w-8/12 md:flex items-center justify-start pl-2 space-x-8">
+              <li>
+                <a href="index.html" class="font-extrabold">
+                  <img class="h-[30px]" src="content/lunefuld.svg" alt="logo">
+                </a>
+              </li>
               <li>
               <a href="shop.html"
-                class=" text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Shop/Plakater</a>
+                class=" text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">Shop</a>
               </li>
               <li>
                 <a href="#"
@@ -74,7 +74,7 @@
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2dark.svg" alt="search">
                 </button>
                 <input id="searchInput" type="text" placeholder="Søg"
-                  class="hidden text-sm   text-gray-600 rounded ml-1 border border-transparent focus:outline-none focus:border-gray-400 px-1" />
+                  class=" text-sm   text-gray-600 rounded ml-1 border border-transparent focus:outline-none focus:border-gray-400 px-1" />
               </div>
               <div class="hidden lg:flex items-center space-x-4 xl:space-x-8">
                 <button aria-label="view favourites"
@@ -113,7 +113,7 @@
           </div>
         </div>
         <!-- For small screen -->
-        <div id="mobile-menu" class="hidden absolute  z-10 inset-0 md:hidden bg-white flex flex-col h-screen w-full">
+        <div id="mobile-menu" class="hidden absolute  z-10 inset-0 md:hidden bg-white flex flex-col h-screen w-full border-t-2 border-b-2 border-solid border-black">
           <div class="flex items-center justify-between border-b border-gray-200  pb-4 p-4">
             <div class="flex items-center space-x-3">
               <div>
@@ -216,96 +216,60 @@
 
   <!-- Content -->
 
-  <div class="mx-auto container px-6 xl:px-0 py-12">
-    <div class="flex flex-col">
+  <div>
+    <div >
       <!-- Hero -->
-      <div class="flex flex-col justify-center">
+      <div class="flex flex-col justify-center border-b-2 border-solid border-black h-[100vh] md:h-auto">
         <div class="relative">
           <img class="hidden sm:block w-full" src="content/lunefuld-header.jpg" alt="plakat i stue" />
           <img class="sm:hidden w-full" src="content/lunefuld-header.jpg" alt="plakat i stue" />
           <div
-            class="absolute sm:bottom-8 bottom-4 sm:top-8 top-4 pr-10 sm:pr-0 left-4 sm:left-8 flex justify-self-center items-center">
-            <p
-              class="text-3xl sm:text-6xl xl:text-7xl 2xl:text-8xl font-semibold leading-9 text-white max-w-sm text-shadow">
-              Lunefuld - Stemningsfulde plakater
-            </p>
+            class="absolute sm:bottom-8 bottom-4 sm:top-8 top-4 pr-10 sm:pr-0 left-4 sm:left-8 flex flex-col justify-self-center items-center">
+ <h1>NOGET PERSONLIGT</h1>
+ <h2>NOGET GENERISK REFORMULERET</h2>
+<button>CTA</button>
           </div>
         </div>
       </div>
       <!-- Hero slut -->
 
       <!-- Featured categories-->
-      <div class="mt-10 grid lg:grid-cols-2 gap-x-8 gap-y-8 items-center">
+<div class="flex flex-col md:flex-row">
+<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
+  <img src="content/posters/poster.jpg" alt="ørestad">
+  <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
+ <a  href="./kategori.html">
+  <p class="bg-white pl-2 pr-2 text-black">Byen</p>
+</a> 
+</div>
+</div>
+<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
+  <img src="content/posters/poster-6.jpg" alt="ørestad">
+  <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
+ <a  href="./kategori.html">
+  <p class="bg-white pl-2 pr-2 text-black">Minimalisme</p>
+</a> 
+</div>
+</div>
 
-        <div
-          class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50   sm:pt-28 sm:pb-8 px-8 pt-36 pb-36 flex justify-left">
-          <a href="kategori.html"><img class="group-hover:opacity-60 transition duration-500"
-              src="content/trae-poster.jpg" alt="sofa-4" /></a>
-          <div class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 ">
-                Plakater med naturen i fokus</p>
-            </div>
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 ">
-                Fra 199.-</p>
-            </div>
-          </div>
+<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
+  <img src="content/posters/poster-4.jpg" alt="ørestad">
+  <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
+ <a  href="./kategori.html">
+  <p class="bg-white pl-2 pr-2 text-black">Naturen</p>
+</a> 
+</div>
+</div>
+<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
+  <img class="grayscale" src="content/posters/poster-3.jpg" alt="ørestad">
+  <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
+ <a  href="./kategori.html">
+  <p class="bg-white pl-2 pr-2 text-black">Sort // Hvid</p>
+</a> 
+</div>
+</div>
+</div>
 
-        </div>
-
-        <div
-          class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50   sm:pt-28 sm:pb-8 px-8 pt-36 pb-36 flex justify-left">
-          <a href="kategori.html"><img class="group-hover:opacity-60 transition duration-500"
-              src="content/poster-byen.jpg" alt="sofa-4" /></a>
-          <div class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 ">
-                Plakater med byen i fokus</p>
-            </div>
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 ">
-                Fra 199.-</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div
-          class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50   sm:pt-28 sm:pb-8 px-8 pt-36 pb-36 flex justify-left">
-          <a href="kategori.html"><img class="group-hover:opacity-60 transition duration-500"
-              src="content/minimalisme-poster.jpg" alt="sofa-4" /></a>
-          <div class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 ">
-                Minimalistiske plakater</p>
-            </div>
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 ">
-                Fra 199.-</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div
-          class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50   sm:pt-28 sm:pb-8 px-8 pt-36 pb-36 flex justify-left">
-          <a href="kategori.html"><img class="group-hover:opacity-60 transition duration-500"
-              src="content/poster-sort-hvid.jpg" alt="sofa-4" /></a>
-          <div class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 ">
-                Sort/hvid</p>
-            </div>
-            <div>
-              <p class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 ">
-                Fra 199.-</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
       <!-- Featured categories slut -->
     </div>
   </div>
