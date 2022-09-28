@@ -4,16 +4,42 @@
     <meta charset="UTF-8" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lunefuld.dk - plakater</title>
+    <title>Lunefuld.dk - Plakater med personlighed</title>
   </head>
+
   <body>
-    
+      <div class="m-scroll bg-black">
+        <div class="m-scroll__title flex gap-10">
+          <div class="m-scroll__title_3">
+            <h1 class="font-medium uppercase h1 flex"> 30 dages fuld returret</h1>
+        </div>
+        <div class="m-scroll__title_2">
+          <h1 class="font-medium uppercase h1 flex"> Levering indenfor 2-3 hverdage.</h1>
+      </div>
+      <div class="m-scroll__title_3">
+        <h1 class="font-medium uppercase h1 flex"> 30 dages fuld returret.</h1>
+    </div>
+    <div class="m-scroll__title_2">
+      <h1 class="font-medium uppercase h1 flex"> Levering indenfor 2-3 hverdage.</h1>
+  </div>
+  <div class="m-scroll__title_3">
+    <h1 class="font-medium uppercase h1 flex"> 30 dages fuld returret</h1>
+</div>
+<div class="m-scroll__title_2">
+  <h1 class="font-medium uppercase h1 flex"> Levering indenfor 2-3 hverdage.</h1>
+</div>
+      </div>
+    </div>
+
+
+
+
   <!-- Navigation -->
   <div class="">
     <div>
       <div class="relative">
         <!-- For md screen size -->
-        <div id="md-searchbar" class="bg-white  hidden lg:hidden py-5 px-6 items-center justify-between border-t-2 border-b-2 border-solid border-black">
+        <div id="md-searchbar" class="bg-transparent hidden lg:hidden py-5 px-6 items-center justify-between  border-b-2 border-solid border-black">
           <div class="flex items-center space-x-3 text-gray-800 ">
             <div>
               <img class="" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2.svg" alt="search">
@@ -41,8 +67,8 @@
         <!-- For md screen size -->
 
         <!-- For large screens -->
-        <div class=" bg-gray-50 px-2 py-4 border-t-2 border-b-2 border-solid border-black">
-          <div class="container mx-auto flex items-center justify-between">
+        <div class=" bg-transparent  px-2 py-4  border-b-2 border-solid border-black hover:bg-black hover:bg-opacity-5">
+          <div class="container  mx-auto flex items-center justify-between">
             <ul class="hidden w-8/12 md:flex items-center justify-start pl-2 space-x-8">
               <li>
                 <a href="index.html" class="font-extrabold">
@@ -214,6 +240,20 @@
   </div>
   <!-- Navigation slut -->
 
+
+
+  <!--Cookieboks-->
+  <div id="cookieboks" class="bg-white flex flex-col items-center fixed top-[100px] p-4 border-2 border-solid border-black z-50">
+    <h1 class="font-bold uppercase">Vores side bruger cookies</h1>
+    <p class="pl-4 pr-4">Vi bruger cookies på vores hjemmeside til at måle trafik, markedsføring og optimering af brugeroplevelsen.</p>
+    <p class="pl-4 pr-4">Ved at klikke ok accepterer du vores Privatlivspolitik, du kan læse om vores vilkår her: <a class="text-blue-500 underline underline-offset-1" href="#">Privatlivspolitik.</a> </p>
+    <div class="flex gap-10">
+    <button id="accepter" class="bg-white border-2 border-solid border-black pl-1 pr-1">Accepter</button>
+    <button id="afvis" class="bg-white border-2 border-solid border-black pl-1 pr-1">Afvis</button>
+</div>
+  </div>
+
+
   <!-- Content -->
 
   <div>
@@ -234,41 +274,100 @@
       <!-- Hero slut -->
 
       <!-- Featured categories-->
-<div class="flex flex-col md:flex-row">
-<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
-  <img src="content/posters/poster.jpg" alt="ørestad">
-  <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
- <a  href="./kategori.html">
-  <p class="bg-white pl-2 pr-2 text-black">Byen</p>
-</a> 
-</div>
-</div>
-<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
-  <img src="content/posters/poster-6.jpg" alt="ørestad">
-  <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
- <a  href="./kategori.html">
-  <p class="bg-white pl-2 pr-2 text-black">Minimalisme</p>
-</a> 
-</div>
+<!-- <div class=" flex justify-center">
+  <h1>Kategorier</h1>
+</div> -->
+
+
+
+<div class="flex flex-col justify-evenly  sm:invisible md:visible md:flex-row row-gap8">
+   
+  <a class="flex flex-col flex-nowrap p-8  w-1/3" href="#">
+    <div class="relative img">
+      <img class=""  src="./content/posters/poster-4.jpg" alt="poster">
+      <div class="overlay"></div></div>
+    <h1 class="text-2xl font-semibold font-serif">Samarbejde med psykiatrifonden</h1>
+    <p>Lunefuld blev stiftet af Marie Moldova efter en stor krise i hendes liv - og kan relatere til, ikke at have det godt altid. Med dette samarbejde ønsker hun, at støtte op om andre, som har haft en svær tid.</p>
+   <p class="underline underline-offset-2 uppercase font-bold text-base">Læs mere om samarbejdet</p>
+  </a>
+
+<a class="flex flex-col flex-nowrap p-8  w-1/3" href="./shop.html">
+  <div class="relative img">
+    <img class=""  src="./content/posters/poster-4.jpg" alt="poster">
+    <div class="overlay"></div></div>
+  <h1 class="text-2xl font-semibold font-serif"> Populære print</h1>
+  <p>Udforsk vores nuværende best-sellers, og biv inspireret til din egen plakatvæg</p>
+ <p class="underline underline-offset-2 uppercase font-bold text-base">udforsk</p>
+</a>
 </div>
 
-<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
-  <img src="content/posters/poster-4.jpg" alt="ørestad">
-  <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
- <a  href="./kategori.html">
-  <p class="bg-white pl-2 pr-2 text-black">Naturen</p>
-</a> 
-</div>
-</div>
-<div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
+
+<!--Kategorier-->
+
+<div class="flex flex-col  md:flex-row gap-8">
+
+  <a class="flex flex-col flex-nowrap ml-8  w-1/3 " href="#">
+    <div class="relative img">
+      <img class=""  src="./content/posters/poster-4.jpg" alt="poster">
+      <div class="overlay"></div></div>
+    <h1 class="text-2xl font-semibold font-serif">Samarbejde med psykiatrifonden</h1>
+    <p>Lunefuld blev stiftet af Marie Moldova efter en stor krise i hendes liv - og kan relatere til, ikke at have det godt altid. Med dette samarbejde ønsker hun, at støtte op om andre, som har haft en svær tid. </p>
+   <p class="underline underline-offset-2 uppercase font-bold text-base">Læs mere om samarbejdet</p>
+  </a>
+
+  <a class="flex flex-col flex-nowrap   w-1/3  " href="#">
+    <div class="relative img">
+      <img class=""  src="./content/posters/poster-4.jpg" alt="poster">
+      <div class="overlay"></div></div>
+    <h1 class="text-2xl font-semibold font-serif">Gallery Wall</h1>
+    <p>Find inspiration til sammensætninger af din nye gallerivæg på vores inspirationsside</p>
+   <p class="underline underline-offset-2 uppercase font-bold text-base">Bliv inspireret</p>
+  </a>
+
+
+<a class="flex flex-col flex-nowrap mr-8 w-1/3" href="./kunstnere.html">
+  <div class="relative img">
+    <img class=""  src="./content/posters/poster-4.jpg" alt="poster">
+    <div class="overlay"></div></div>
+  <h1 class="text-2xl font-semibold font-serif">Mød vores kunstnere</h1>
+  <p>Læs om de forskellige historier bag kunstværkerne.</p>
+ <p class="underline underline-offset-2 uppercase font-bold text-base">Mød kunstnerne</p>
+</a>
+
+
+<!-- <div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/4 relative bg-gray-50">
   <img class="grayscale" src="content/posters/poster-3.jpg" alt="ørestad">
   <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
  <a  href="./kategori.html">
   <p class="bg-white pl-2 pr-2 text-black">Sort // Hvid</p>
 </a> 
 </div>
+</div> -->
 </div>
-</div>
+
+<!-- <div class=" flex justify-center">
+  <h1>Kategorier</h1>
+</div> -->
+<!-- 
+<div class="flex flex-col sm:invisible md:visible md:flex-row">
+  <div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/2 relative bg-gray-50">
+    <img src="content/posters/poster-17.jpg" alt="ørestad">
+    <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
+   <a  href="./kategori.html">
+    <p class="bg-white pl-2 pr-2 text-black">Mød Kunstnerne</p>
+  </a> 
+  </div>
+  </div>
+
+  <div class="group group-hover:bg-opacity-60 transition duration-500 md:w-1/2 relative bg-gray-50">
+    <img src="content/posters/poster-12.jpg" alt="ørestad">
+    <div class="absolute top-[80%] sm:left-[35%] lg:left-[40%]">
+   <a  href="./kategori.html">
+    <p class="bg-white pl-2 pr-2 text-black">Minimalisme</p>
+  </a> 
+  </div>
+  </div>
+</div> -->
 
       <!-- Featured categories slut -->
     </div>
@@ -322,6 +421,8 @@
             class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6  text-white cursor-pointer">FAQ</a>
           <a href="javascript:void(0)"
             class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6  text-white cursor-pointer">Handelsbetingelser</a>
+            <a href="javascript:void(0)"
+            class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6  text-white cursor-pointer">Privatlivspolitik</a>
         </div>
         <div class="lg:block hidden">
           <label class="text-xl font-medium leading-5  text-white">Hold dig opdateret!</label>
@@ -348,7 +449,7 @@
             class="text-base leading-4 p-4 relative z-0 w-full focus:outline-none text-gray-800 placeholder-gray-800   border-white bg-white "
             placeholder="E-mail" />
           <button aria-label="send"
-            class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer mr-4 cursor-pointer relative z-40">
+            class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer mr-4 relative z-40">
             <svg class="fill-current text-gray-800 hover:text-gray-500  " width="16" height="17" viewBox="0 0 16 17"
               fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path
