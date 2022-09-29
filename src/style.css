@@ -7,6 +7,19 @@
     text-shadow: 2px 2px #333;
   }
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.heading{
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.heading1{
+  font-family: 'Quattrocento', serif;
+}
+
   .overlay {
     position: absolute;
     top: 0;
